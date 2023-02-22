@@ -129,8 +129,11 @@
             <td id="item-github"><img src="img/github.png">
               <div class="folder-name">GitHub</div>
             </td>
-            <td id="item-cv"><img src="img/pdf.svg">
-              <div class="folder-name">Curriculum Vitae (CV)</div>
+            <td id="item-cv-es"><img src="img/pdf.svg">
+              <div class="folder-name">Curriculum Vitae (CV) ES</div>
+            </td>
+            <td id="item-cv-en"><img src="img/pdf.svg">
+              <div class="folder-name">Curriculum Vitae (CV) EN</div>
             </td>
             <td id="item-download"><img src="img/download.png">
               <div class="folder-name">Downloads</div>
@@ -165,8 +168,12 @@
       window.open('https://github.com/toledojorge', '_blank').focus();
     });
 
-    $("#item-cv").dblclick(function () {
-      window.open('cv.pdf', '_blank').focus();
+    $("#item-cv-es").dblclick(function () {
+      window.open('cv-es.pdf', '_blank').focus();
+    });
+
+    $("#item-cv-en").dblclick(function () {
+      window.open('cv-en.pdf', '_blank').focus();
     });
   </script>
 </body>
